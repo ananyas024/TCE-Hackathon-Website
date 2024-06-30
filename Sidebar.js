@@ -14,6 +14,8 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
         <li><Link to="/schedule" onClick={toggleSidebar}>Schedule</Link></li>
         <li><Link to="/contact" onClick={toggleSidebar}>Contact</Link></li>
         <li><Link to="/register" onClick={toggleSidebar}>Register</Link></li>
+        <li><Link to="/Events" onClick={toggleSidebar}>Events</Link></li>
+        
       </ul>
     </div>
   );
